@@ -1,15 +1,17 @@
-============================================================
-                        TIME UTILITY
-============================================================
 
-A web-based time management tool with a DIGITAL CLOCK, STOPWATCH,
-and ALARM CLOCK. Fully customizable with Dark Mode, Digital Font,
-and Date Visibility options. Built using HTML, CSS (Bootstrap + custom),
-and JavaScript.
+TIME UTILITY
 
-============================================================
-                           FEATURES
-============================================================
+A web-based time management tool with a DIGITAL CLOCK, STOPWATCH and ALARM CLOCK. Fully customizable with Dark Mode, Digital Font and Date Visibility options. Built using HTML, CSS (Bootstrap + custom) and JavaScript.
+
+------------------------------------------------------------
+
+DEMO
+
+
+------------------------------------------------------------
+
+FEATURES
+
 
 DIGITAL CLOCK
 - Shows local time and date
@@ -31,26 +33,25 @@ CUSTOM SETTINGS
 - Digital Font: futuristic digital style
 - Hide Date: optionally hide date display
 
-============================================================
-                      TECHNOLOGIES USED
-============================================================
+------------------------------------------------------------
+
+TECHNOLOGIES USED
+
 - HTML5 & CSS3
 - Bootstrap 5 (responsive layout)
 - JavaScript (Vanilla)
 - Google Fonts (Orbitron for digital style)
 
-============================================================
-                         INSTALLATION
-============================================================
-1. Clone the repository:
-   git clone https://github.com/your-username/time-utility.git
+------------------------------------------------------------
 
+INSTALLATION
+1. Clone the repository: Watch Demo
 2. Open 'index.html' in your preferred browser
 3. Ensure 'css/style.css' and 'js/script.js' are in the correct paths
 
-============================================================
-                           USAGE
-============================================================
+------------------------------------------------------------
+
+USAGE
 1. SETTINGS
    - Toggle Dark Mode, Digital Font, or Hide Date
 
@@ -64,9 +65,9 @@ CUSTOM SETTINGS
    - Click "Set Alarm" and input time in HH:MM AM/PM
    - Receive browser alert when time is reached
 
-============================================================
-                     PROJECT STRUCTURE
-============================================================
+------------------------------------------------------------
+ PROJECT STRUCTURE
+
 time-utility/
 │
 ├── css/
@@ -75,25 +76,9 @@ time-utility/
 │   └── script.js       (JavaScript functionality)
 └── index.html          (Main HTML file)
 
-============================================================
-                        CONTRIBUTION
-============================================================
-- Fork the repository
-- Create a new branch:
-  git checkout -b feature-name
-- Commit changes:
-  git commit -m "Add feature"
-- Push branch:
-  git push origin feature-name
-- Open a pull request
+------------------------------------------------------------
 
-============================================================
-                           LICENSE
-============================================================
-MIT License (see LICENSE file for details)
+LICENSE
+MIT License 
 
-============================================================
-                          SCREENSHOTS
-============================================================
-(Optional: Add screenshots of Digital Clock, Stopwatch,
-and Alarm in Light/Dark mode)
+
