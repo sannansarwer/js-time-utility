@@ -30,15 +30,11 @@ A responsive web-based Time Utility application featuring a Digital Clock, Stopw
    - Hide Date: Option to hide date display from all time modules.
 
 ## Tech Stack
-HTML5 – Semantic markup for structure.
-
-CSS3 – Custom styling and theming.
-
-JavaScript (ES6) – Dynamic functionality for clocks, stopwatch, and alarm.
-
-Bootstrap 5 – Responsive layout and UI components.
-
-Google Fonts (Orbitron) – Digital-style clock font.
+- HTML5 – Semantic markup for structure.
+- CSS3 – Custom styling and theming.
+- JavaScript (ES6) – Dynamic functionality for clocks, stopwatch, and alarm.
+- Bootstrap 5 – Responsive layout and UI components.
+- Google Fonts (Orbitron) – Digital-style clock font.
 
 ##Project Structure
 time-utility/
