@@ -44,11 +44,11 @@ time-utility/
 
 ├── css/
 
-   └── style.css       # Custom styling
+    └── style.css       # Custom styling
 
 ├── js/
 
-  └── script.js       # JavaScript functionality
+    └── script.js       # JavaScript functionality
   
 └── README.md           # Project documentation
 
