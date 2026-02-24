@@ -32,16 +32,6 @@ Settings
 
 ------------------------------------------------------------
 
-INSTALLATION / USAGE
-
-1. Clone the repository:
-   git clone https://github.com/your-username/time-utility.git
-2. Open index.html in a browser
-3. Use the Settings button to toggle Dark Mode, Digital Font, or Hide Date
-4. Set an alarm via the Set Alarm button
-
-------------------------------------------------------------
-
 FILE STRUCTURE
 
 time-utility/
