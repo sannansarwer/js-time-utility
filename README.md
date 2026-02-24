@@ -5,7 +5,7 @@ Live Demo #
 A responsive web-based Time Utility application featuring a Digital Clock, Stopwatch, and Alarm Clock, with customizable settings like Dark Mode, Digital Font, and the option to Hide Dates. Built with HTML, CSS, JavaScript, and Bootstrap 5 for modern, mobile-friendly design.
 
 ## Features
-1. Digital Clock
+#1. Digital Clock
 
 Displays local time for Asia/Karachi (Pakistan - Lahore) by default.
 
@@ -15,7 +15,7 @@ Updates every second automatically.
 
 Customizable appearance with Dark Mode and Digital Font.
 
-2. Stopwatch
+#2. Stopwatch
 
 High-accuracy stopwatch displaying minutes, seconds, and milliseconds.
 
@@ -25,7 +25,7 @@ Shows the current date alongside the stopwatch time.
 
 Updates every 10 milliseconds for precise measurement.
 
-3. Alarm Clock
+#3. Alarm Clock
 
 Allows users to set an alarm by entering a specific time (e.g., 07:30 PM).
 
@@ -35,7 +35,7 @@ Shows current date and time for reference.
 
 Only triggers once per alarm and can be reset by setting a new time.
 
-4. Settings Panel
+#4. Settings Panel
 
 Dark Mode: Toggle to switch the interface to a dark theme.
 
