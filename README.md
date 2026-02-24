@@ -37,6 +37,7 @@ A responsive web-based Time Utility application featuring a Digital Clock, Stopw
 - Google Fonts (Orbitron) – Digital-style clock font.
 
 ##Project Structure
+
 time-utility/
 │
 ├── index.html          # Main HTML page
