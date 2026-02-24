@@ -1,0 +1,38 @@
+body{
+    margin: 130px;
+    background-color: rgb(241, 238, 238);
+}
+
+/*Dark Mode*/
+.dark-mode{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.dark-mode .setting{
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.dark-mode .card{
+    background-color:black;
+    color:whitesmoke;
+    border-color: whitesmoke;
+}
+
+.dark-mode .reset{
+     border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+/*Digital Font*/
+.digital-font {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*Hide Date*/
+.hide-dates #clockDate,
+.hide-dates #alarmDate,
+.hide-dates #stopwatchDate {
+    display: none;
+}

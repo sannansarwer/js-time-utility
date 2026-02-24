@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Utility</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!--Settings-->    
+    <div class="">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-dark setting" data-bs-toggle="modal" data-bs-target="#exampleModal">Settings</button>
+
+        <!-- Modal -->
+        <div class="modal fade .modal-sm" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Clock Settings</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="darkModeSwitch">
+                            <label class="form-check-label fw-bold" for="darkModeSwitch">Dark Mode</label>
+                        </div>
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="digitalFontSwitch">
+                            <label class="form-check-label fw-bold" for="digitalFontSwitch">Digital Font</label>
+                        </div>
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="hideDateSwitch">
+                            <label class="form-check-label fw-bold" for="hideDateSwitch">Hide Date</label>
+                        </div>
+
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+<!--Clock-->
+   <div class="row">
+
+    <!--Digital Clock-->
+        <div class="col-sm-4">
+
+            <div class="card text-center timeZone">
+
+                <div class="card-header">
+                    <span class="badge rounded-pill bg-success">ClO'ck</span>
+                </div>
+
+                <div class="card-body">
+                    <h5 id="clockCountry"></h5>
+                    <h3 id="clockTime"></h3>
+                    <h4 id="clockDate"></h4>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <!--Stopwatch-->
+        <div class="col-sm-4">
+
+            <div class="card text-center stopwatch">
+
+                <div class="card-header">
+                    <span class="badge rounded-pill bg-success">StopClO'ck</span>
+                </div>
+
+                <div class="card-body">
+
+                    <h3 id="stopwatchTime">00:00.00</h3>
+                    <h4 id="stopwatchDate"></h4>
+                    <button type="button" id="startStopwatchBtn" class="btn btn-outline-primary btn-sm">Start</button>
+                    <button type="button" id="stopWatchBtn" class="btn btn-outline-danger btn-sm">Stop</button>
+                    <button type="button" id="resumeStopwatchBtn" class="btn btn-outline-secondary btn-sm">Resume</button>
+                    <button type="button" id="resetStopwatchBtn" class="btn btn-outline-dark btn-sm reset">Reset</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--Alarm Clock-->
+        <div class="col-sm-4">
+
+            <div class="card text-center alarm">
+
+                <div class="card-header">
+                    <span class="badge rounded-pill bg-success">Alarm ClO'ck</span>
+                </div>
+
+                <div class="card-body">
+            
+                    <h3 id="alarmTime"></h3>
+                    <h4 id="alarmDate"></h4>
+                    <button type="button" id="setAlarmBtn" class="btn btn-outline-primary btn-sm">Set Alarm</button>
+                    
+                    
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!--Custom JS-->
+<script src="js/script.js"></script>
+</body>
+</html>
