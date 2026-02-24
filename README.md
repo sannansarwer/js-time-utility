@@ -1,111 +1,99 @@
-==============================
-TIME UTILITY
+============================================================
+                        TIME UTILITY
+============================================================
 
-A web-based time management tool with a digital clock, stopwatch, and alarm clock.
-Fully customizable with dark mode, digital font, and date visibility options.
-Built using HTML, CSS (Bootstrap + custom styles), and JavaScript.
+A web-based time management tool with a DIGITAL CLOCK, STOPWATCH,
+and ALARM CLOCK. Fully customizable with Dark Mode, Digital Font,
+and Date Visibility options. Built using HTML, CSS (Bootstrap + custom),
+and JavaScript.
 
-FEATURES
+============================================================
+                           FEATURES
+============================================================
 
 DIGITAL CLOCK
-
-Shows local time and date
-
-Displays timezone information
-
-Supports dark mode and digital font
+- Shows local time and date
+- Displays timezone information
+- Supports Dark Mode and Digital Font
 
 STOPWATCH
-
-High-precision stopwatch (updates every 10ms)
-
-Start, Stop, Resume, and Reset controls
-
-Displays current date
+- High-precision stopwatch (updates every 10ms)
+- Start, Stop, Resume, and Reset controls
+- Displays current date
 
 ALARM CLOCK
-
-Set alarms in HH:MM AM/PM format
-
-Alerts user when set time is reached
-
-Displays current date and time
+- Set alarms in HH:MM AM/PM format
+- Alerts user when time is reached
+- Displays current date and time
 
 CUSTOM SETTINGS
+- Dark Mode: toggle light/dark theme
+- Digital Font: futuristic digital style
+- Hide Date: optionally hide date display
 
-Dark Mode: toggle light/dark theme
+============================================================
+                      TECHNOLOGIES USED
+============================================================
+- HTML5 & CSS3
+- Bootstrap 5 (responsive layout)
+- JavaScript (Vanilla)
+- Google Fonts (Orbitron for digital style)
 
-Digital Font: futuristic digital style
+============================================================
+                         INSTALLATION
+============================================================
+1. Clone the repository:
+   git clone https://github.com/your-username/time-utility.git
 
-Hide Date: optionally hide date display
+2. Open 'index.html' in your preferred browser
+3. Ensure 'css/style.css' and 'js/script.js' are in the correct paths
 
-TECHNOLOGIES USED
+============================================================
+                           USAGE
+============================================================
+1. SETTINGS
+   - Toggle Dark Mode, Digital Font, or Hide Date
 
-HTML5 & CSS3
+2. STOPWATCH
+   - START → begin timing
+   - STOP → pause timing
+   - RESUME → continue timing
+   - RESET → clear time
 
-Bootstrap 5 (responsive layout)
+3. ALARM CLOCK
+   - Click "Set Alarm" and input time in HH:MM AM/PM
+   - Receive browser alert when time is reached
 
-JavaScript (Vanilla)
-
-Google Fonts (Orbitron for digital styling)
-
-INSTALLATION
-
-Clone the repository:
-git clone https://github.com/your-username/time-utility.git
-
-Open index.html in your preferred browser
-
-Make sure css/style.css and js/script.js are in the correct paths
-
-USAGE
-
-Click Settings to toggle:
-
-Dark Mode
-
-Digital Font
-
-Hide Date
-
-Stopwatch:
-
-Start → begin timing
-
-Stop → pause timing
-
-Resume → continue timing
-
-Reset → clear time
-
-Alarm Clock:
-
-Click "Set Alarm" and enter time in HH:MM AM/PM format
-
-Receive browser alert when alarm time is reached
-
-PROJECT STRUCTURE
-
+============================================================
+                     PROJECT STRUCTURE
+============================================================
 time-utility/
 │
 ├── css/
-│ └── style.css (Custom styles)
+│   └── style.css       (Custom styles)
 ├── js/
-│ └── script.js (JavaScript functionality)
-└── index.html (Main HTML file)
+│   └── script.js       (JavaScript functionality)
+└── index.html          (Main HTML file)
 
-CONTRIBUTION
+============================================================
+                        CONTRIBUTION
+============================================================
+- Fork the repository
+- Create a new branch:
+  git checkout -b feature-name
+- Commit changes:
+  git commit -m "Add feature"
+- Push branch:
+  git push origin feature-name
+- Open a pull request
 
-Fork the repository
-
-Create a branch: git checkout -b feature-name
-
-Commit changes: git commit -m "Add feature"
-
-Push branch: git push origin feature-name
-
-Open a pull request
-
-LICENSE
-
+============================================================
+                           LICENSE
+============================================================
 MIT License (see LICENSE file for details)
+
+============================================================
+                          SCREENSHOTS
+============================================================
+(Optional: Add screenshots of Digital Clock, Stopwatch,
+and Alarm in Light/Dark mode)
