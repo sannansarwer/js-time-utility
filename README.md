@@ -7,13 +7,13 @@ A responsive web-based Time Utility application featuring a Digital Clock, Stopw
 ## Features
 1. Digital Clock
 
-Displays local time for Asia/Karachi (Pakistan - Lahore) by default.
+-Displays local time for Asia/Karachi (Pakistan - Lahore) by default.
 
-Shows current date in DD MMM YYYY format.
+-Shows current date in DD MMM YYYY format.
 
-Updates every second automatically.
+-Updates every second automatically.
 
-Customizable appearance with Dark Mode and Digital Font.
+-Customizable appearance with Dark Mode and Digital Font.
 
 2. Stopwatch
 
