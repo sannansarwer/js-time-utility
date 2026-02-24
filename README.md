@@ -1,6 +1,6 @@
 # Simple JavaScript To-Do List
 
-Live Demo # 
+## Live Demo # https://sannansarwer.github.io/js-time-utility/
 
 A responsive web-based Time Utility application featuring a Digital Clock, Stopwatch, and Alarm Clock, with customizable settings like Dark Mode, Digital Font, and the option to Hide Dates. Built with HTML, CSS, JavaScript, and Bootstrap 5 for modern, mobile-friendly design.
 
