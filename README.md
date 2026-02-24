@@ -36,7 +36,7 @@ A responsive web-based Time Utility application featuring a Digital Clock, Stopw
 - Bootstrap 5 – Responsive layout and UI components.
 - Google Fonts (Orbitron) – Digital-style clock font.
 
-##Project Structure
+## Project Structure
 
 time-utility/
 │
@@ -53,6 +53,6 @@ time-utility/
 └── README.md           # Project documentation
 
 
-##License
+## License
 
 This project is open-source and free to use. Feel free to customize and extend functionality.
