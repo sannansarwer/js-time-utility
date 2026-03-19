@@ -1,4 +1,4 @@
-# Simple JavaScript To-Do List
+# Digital Clock Javascript
 
 Live Demo # https://sannansarwer.github.io/js-time-utility/
 
