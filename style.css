@@ -1,49 +1,51 @@
 body {
-  background-color: rgb(241, 238, 238);
-  font-family: Arial, sans-serif;
-}
+      font-family: Arial, sans-serif;
+      background-color: rgb(241, 238, 238);
+      margin: 0;
+      padding: 0;
+    }
 
-/* Dark Mode */
-.dark-mode {
-  background-color: #121212;
-  color: whitesmoke;
-}
+    .card {
+      border-radius: 12px;
+    }
 
-.dark-mode .setting {
-  border-color: whitesmoke;
-  color: whitesmoke;
-}
+    /* Dark Mode */
+    .dark-mode {
+      background-color: #121212;
+      color: whitesmoke;
+    }
+    .dark-mode .card {
+      background-color: #1e1e1e;
+      color: whitesmoke;
+      border-color: whitesmoke;
+    }
+    .dark-mode .setting, .dark-mode .reset {
+      border-color: whitesmoke;
+      color: whitesmoke;
+    }
 
-.dark-mode .card {
-  background-color: #1e1e1e;
-  color: whitesmoke;
-  border-color: whitesmoke;
-}
+    /* Digital Font */
+    .digital-font {
+      font-family: 'Orbitron', sans-serif;
+    }
 
-.dark-mode .reset {
-  border-color: whitesmoke;
-  color: whitesmoke;
-}
+    /* Hide Date */
+    .hide-dates #clockDate,
+    .hide-dates #alarmDate,
+    .hide-dates #stopwatchDate {
+      display: none;
+    }
 
-/* Digital Font */
-.digital-font {
-  font-family: 'Orbitron', sans-serif;
-}
-
-/* Hide Date */
-.hide-dates #clockDate,
-.hide-dates #alarmDate,
-.hide-dates #stopwatchDate {
-  display: none;
-}
-
-/* Responsive text scaling */
-@media (max-width: 576px) {
-  h3, h4, h5 {
-    font-size: 1rem !important;
-  }
-  .btn-sm {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
-  }
-}
+    /* Mobile scaling */
+    @media (max-width: 576px) {
+      h3, h4, h5 {
+        font-size: 1rem !important;
+      }
+      .btn-sm {
+        font-size: 0.7rem;
+        padding: 0.25rem 0.5rem;
+      }
+      .card-body {
+        padding: 0.8rem;
+      }
+    }
