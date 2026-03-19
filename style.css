@@ -1,38 +1,49 @@
-body{
-    margin: 130px;
-    background-color: rgb(241, 238, 238);
+body {
+  background-color: rgb(241, 238, 238);
+  font-family: Arial, sans-serif;
 }
 
-/*Dark Mode*/
-.dark-mode{
-    background-color: black;
-    color: whitesmoke;
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: whitesmoke;
 }
 
-.dark-mode .setting{
-    border-color: whitesmoke;
-    color: whitesmoke;
+.dark-mode .setting {
+  border-color: whitesmoke;
+  color: whitesmoke;
 }
 
-.dark-mode .card{
-    background-color:black;
-    color:whitesmoke;
-    border-color: whitesmoke;
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: whitesmoke;
+  border-color: whitesmoke;
 }
 
-.dark-mode .reset{
-     border-color: whitesmoke;
-    color: whitesmoke;
+.dark-mode .reset {
+  border-color: whitesmoke;
+  color: whitesmoke;
 }
 
-/*Digital Font*/
+/* Digital Font */
 .digital-font {
-    font-family: 'Orbitron', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
-/*Hide Date*/
+/* Hide Date */
 .hide-dates #clockDate,
 .hide-dates #alarmDate,
 .hide-dates #stopwatchDate {
-    display: none;
+  display: none;
+}
+
+/* Responsive text scaling */
+@media (max-width: 576px) {
+  h3, h4, h5 {
+    font-size: 1rem !important;
+  }
+  .btn-sm {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
 }
