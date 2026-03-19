@@ -13,10 +13,10 @@
 </head>
 <body>
 
-<div class="container py-4">
+<div class="container-fluid py-3">
 
   <!-- Settings Button -->
-  <div class="d-flex justify-content-end mb-3">
+  <div class="d-flex justify-content-end mb-2">
     <button type="button" class="btn btn-outline-dark setting" data-bs-toggle="modal" data-bs-target="#settingsModal">Settings</button>
   </div>
 
@@ -54,32 +54,32 @@
 
     <!-- Digital Clock -->
     <div class="col-12 col-md-4">
-      <div class="card text-center shadow-sm h-100 timeZone p-3">
+      <div class="card text-center shadow-sm p-3">
         <div class="card-header">
           <span class="badge rounded-pill bg-success">Clock</span>
         </div>
         <div class="card-body">
-          <h5 id="clockCountry"></h5>
-          <h3 id="clockTime" class="fs-3 fs-md-2"></h3>
-          <h4 id="clockDate" class="fs-6 fs-md-5"></h4>
+          <h5 id="clockCountry" class="mb-1"></h5>
+          <h3 id="clockTime" class="fs-2 fs-sm-4"></h3>
+          <h4 id="clockDate" class="fs-6 fs-sm-5"></h4>
         </div>
       </div>
     </div>
 
     <!-- Stopwatch -->
     <div class="col-12 col-md-4">
-      <div class="card text-center shadow-sm h-100 stopwatch p-3">
+      <div class="card text-center shadow-sm p-3">
         <div class="card-header">
           <span class="badge rounded-pill bg-success">Stopwatch</span>
         </div>
         <div class="card-body">
-          <h3 id="stopwatchTime" class="fs-3">00:00.00</h3>
+          <h3 id="stopwatchTime" class="fs-2">00:00.00</h3>
           <h4 id="stopwatchDate" class="fs-6"></h4>
           <div class="d-flex flex-wrap gap-2 justify-content-center mt-2">
             <button id="startStopwatchBtn" class="btn btn-outline-primary btn-sm">Start</button>
             <button id="stopWatchBtn" class="btn btn-outline-danger btn-sm">Stop</button>
             <button id="resumeStopwatchBtn" class="btn btn-outline-secondary btn-sm">Resume</button>
-            <button id="resetStopwatchBtn" class="btn btn-outline-dark btn-sm">Reset</button>
+            <button id="resetStopwatchBtn" class="btn btn-outline-dark btn-sm reset">Reset</button>
           </div>
         </div>
       </div>
@@ -87,12 +87,12 @@
 
     <!-- Alarm Clock -->
     <div class="col-12 col-md-4">
-      <div class="card text-center shadow-sm h-100 alarm p-3">
+      <div class="card text-center shadow-sm p-3">
         <div class="card-header">
           <span class="badge rounded-pill bg-success">Alarm Clock</span>
         </div>
         <div class="card-body">
-          <h3 id="alarmTime" class="fs-3"></h3>
+          <h3 id="alarmTime" class="fs-2"></h3>
           <h4 id="alarmDate" class="fs-6"></h4>
           <button id="setAlarmBtn" class="btn btn-outline-primary btn-sm mt-2">Set Alarm</button>
         </div>
@@ -100,6 +100,7 @@
     </div>
 
   </div>
+
 </div>
 
 <!-- Bootstrap JS -->
